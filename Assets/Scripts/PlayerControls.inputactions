@@ -6,9 +6,17 @@
             "id": "34157259-d831-487a-9939-8224cace0288",
             "actions": [
                 {
-                    "name": "Move",
+                    "name": "Horizontal",
                     "type": "PassThrough",
                     "id": "565c94d8-b09d-47e0-b679-011dab932d08",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Vertical",
+                    "type": "PassThrough",
+                    "id": "ab313b11-a1dc-42c0-be9b-1ab34a6445f7",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -30,7 +38,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Horizontal",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -41,7 +49,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Horizontal",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -52,53 +60,9 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Horizontal",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "Vertical",
-                    "id": "25c9b6cb-ef23-47f2-915d-869c4cc26136",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "8c6a8636-2efb-44a2-87ee-77084cc3d40f",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "538d43a7-1eb8-4144-a533-84938cc6be2f",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "5b001a0e-02ac-41dc-bb30-6d33ff6ddda8",
-                    "path": "<Keyboard>/leftShift",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
@@ -110,6 +74,39 @@
                     "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "Vertical Movement",
+                    "id": "4e0a3b99-41a8-4ace-8eea-52e195d5a7a8",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Vertical",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ff4eb3a0-9050-4664-ae8e-edacf3ef5b38",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Vertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "7e6b47f2-e919-49a1-afcd-5820cd38964e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Vertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
