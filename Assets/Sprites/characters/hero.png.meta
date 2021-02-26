@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 906b18075f0f67b48a0d1f2134c99270
+guid: 2d9c76de6d516ad4e9c739092c292c93
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -128,6 +128,15 @@ TextureImporter:
   - first:
       213: -9025154755875259612
     second: hero_41
+  - first:
+      213: -8051563828625789436
+    second: hero_42
+  - first:
+      213: -4559883842297199490
+    second: hero_43
+  - first:
+      213: 1999024720489616001
+    second: hero_44
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -173,7 +182,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 104, y: 0, z: 0, w: 28}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
